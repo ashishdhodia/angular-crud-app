@@ -1,0 +1,380 @@
+{
+  "product": [
+    {
+      "product_name": "Raw legums",
+      "product_category": "vegetable",
+      "product_description": "Raw legums on the wooden table",
+      "units_available": 25,
+      "height": 450,
+      "width": 299,
+      "price": 17.11,
+      "rating": 2,
+      "id": 5
+    },
+    {
+      "product_name": "Baking cake",
+      "product_category": "food",
+      "product_description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
+      "units_available": "250",
+      "height": 450,
+      "width": 675,
+      "price": 11.14,
+      "rating": "5",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "product_name": "Pesto with basil",
+      "product_category": "vegetable",
+      "product_description": "Italian traditional pesto with basil, chesse and oil",
+      "units_available": 25,
+      "height": 450,
+      "width": 299,
+      "price": 18.19,
+      "rating": 2
+    },
+    {
+      "id": 8,
+      "product_name": "Hazelnut in black ceramic bowl",
+      "product_category": "vegetable",
+      "product_description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
+      "units_available": 25,
+      "height": 450,
+      "width": 301,
+      "price": 27.35,
+      "rating": 0
+    },
+    {
+      "id": 9,
+      "product_name": "Fresh stawberry",
+      "product_category": "fruit",
+      "product_description": "Sweet fresh stawberry on the wooden table",
+      "units_available": 25,
+      "height": 600,
+      "width": 399,
+      "price": 28.59,
+      "rating": 4
+    },
+    {
+      "id": 10,
+      "product_name": "Lemon and salt",
+      "product_category": "fruit",
+      "product_description": "Rosemary, lemon and salt on the table",
+      "units_available": 25,
+      "height": 450,
+      "width": 299,
+      "price": 15.79,
+      "rating": 5
+    },
+    {
+      "id": 11,
+      "product_name": "Homemade bread",
+      "product_category": "bakery",
+      "product_description": "Homemade bread",
+      "units_available": 25,
+      "height": 450,
+      "width": 301,
+      "price": 17.48,
+      "rating": 3
+    },
+    {
+      "id": 12,
+      "product_name": "Legums",
+      "product_category": "vegetable",
+      "product_description": "Cooked legums on the wooden table",
+      "units_available": 25,
+      "height": 600,
+      "width": 399,
+      "price": 14.77,
+      "rating": 0
+    },
+    {
+      "id": 13,
+      "product_name": "Fresh tomato",
+      "product_category": "vegetable",
+      "product_description": "Fresh tomato juice with basil",
+      "units_available": 25,
+      "height": 600,
+      "width": 903,
+      "price": 16.3,
+      "rating": 2
+    }
+  ],
+  "sellers": [
+    {
+      "id": 2,
+      "seller_name": "Ervin Howell",
+      "seller_email": "Shanna@melissa.tv",
+      "seller_address": "Victor Plains",
+      "phone": "0106926593",
+      "website": "anastasia.net"
+    },
+    {
+      "id": 3,
+      "seller_name": "Clementine Bauch",
+      "seller_email": "Nathan@yesenia.net",
+      "seller_address": "Douglas Extension",
+      "phone": "14631234447",
+      "website": "ramiro.info"
+    },
+    {
+      "id": 4,
+      "seller_name": "Patricia Lebsack",
+      "seller_email": "Julianne.OConner@kory.org",
+      "seller_address": "Hoeger Mall",
+      "phone": "4931709623",
+      "website": "kale.biz"
+    },
+    {
+      "id": 5,
+      "seller_name": "Nicholas Runolfsdottir V",
+      "seller_email": "Sherwood@rosamond.me",
+      "seller_address": "Ellsworth Summit",
+      "phone": "2549541289",
+      "website": "demarco.info"
+    },
+    {
+      "id": 6,
+      "seller_name": "Mrs. Dennis Schulist",
+      "seller_email": "Karley_Dach@jasper.info",
+      "seller_address": "Norberto Crossing",
+      "phone": "14779358478",
+      "website": "ola.org"
+    },
+    {
+      "id": 7,
+      "seller_name": "Kurtis Weissnat",
+      "seller_email": "Telly.Hoeger@billy.biz",
+      "seller_address": "Rex Trail",
+      "phone": "2100676132",
+      "website": "elvis.io"
+    },
+    {
+      "id": 8,
+      "seller_name": "Chelsey Dietrich",
+      "seller_email": "Lucio_Hettinger@annie.ca",
+      "seller_address": "Skiles Walks",
+      "phone": "5864936943",
+      "website": "jacynthe.com"
+    },
+    {
+      "id": 9,
+      "seller_name": "Glenna Reichert",
+      "seller_email": "Chaim_McDermott@dana.io",
+      "seller_address": "Kattie Turnpike",
+      "phone": "7759766794",
+      "website": "conrad.com"
+    },
+    {
+      "id": 10,
+      "seller_name": "Clementina DuBuque",
+      "seller_email": "Rey.Padberg@karina.biz",
+      "seller_address": "Dayna Park",
+      "phone": "0246483804",
+      "website": "ambrose.net"
+    }
+  ],
+  "buyer": [
+    {
+      "buyer_name": "Leanne ",
+      "buyer_email": "Sincere@april.biz",
+      "buyer_address": "Kulas Light",
+      "phone": "17707368031",
+      "website": "hildegard.org",
+      "company": "Romaguera-Crona",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "buyer_name": "Ervin Howell",
+      "buyer_email": "Shanna@melissa.tv",
+      "buyer_address": "Victor Plains",
+      "phone": "0106926593",
+      "website": "anastasia.net",
+      "company": "Deckow-Crist"
+    },
+    {
+      "id": 3,
+      "buyer_name": "Clementine Bauch",
+      "buyer_email": "Nathan@yesenia.net",
+      "buyer_address": "Douglas Extension",
+      "phone": "14631234447",
+      "website": "ramiro.info",
+      "company": "Romaguera-Jacobson"
+    },
+    {
+      "id": 4,
+      "buyer_name": "Patricia Lebsack",
+      "buyer_email": "Julianne.OConner@kory.org",
+      "buyer_address": "Hoeger Mall",
+      "phone": "4931709623",
+      "website": "kale.biz",
+      "company": "Robel-Corkery"
+    },
+    {
+      "id": 5,
+      "buyer_name": "Chelsey Dietrich",
+      "buyer_email": "Lucio_Hettinger@annie.ca",
+      "buyer_address": "Skiles Walks",
+      "phone": "2549541289",
+      "website": "demarco.info",
+      "company": "Keebler LLC"
+    },
+    {
+      "id": 6,
+      "buyer_name": "Mrs. Dennis Schulist",
+      "buyer_email": "Karley_Dach@jasper.info",
+      "buyer_address": "Norberto Crossing",
+      "phone": "14779358478",
+      "website": "ola.org",
+      "company": "Considine-Lockman"
+    },
+    {
+      "id": 7,
+      "buyer_name": "Kurtis Weissnat",
+      "buyer_email": "Telly.Hoeger@billy.biz",
+      "buyer_address": "Rex Trail",
+      "phone": "2100676132",
+      "website": "elvis.io",
+      "company": "Johns Group"
+    },
+    {
+      "id": 8,
+      "buyer_name": "Nicholas Runolfsdottir V",
+      "buyer_email": "Sherwood@rosamond.me",
+      "buyer_address": "Ellsworth Summit",
+      "phone": "5864936943",
+      "website": "jacynthe.com",
+      "company": "Abernathy Group"
+    },
+    {
+      "id": 9,
+      "buyer_name": "Glenna Reichert",
+      "buyer_email": "Chaim_McDermott@dana.io",
+      "buyer_address": "Dayna Park",
+      "phone": "7759766794",
+      "website": "conrad.com",
+      "company": "Yost and Sons"
+    },
+    {
+      "id": 10,
+      "buyer_name": "Clementina DuBuque",
+      "buyer_email": "Rey.Padberg@karina.biz",
+      "buyer_address": "Kattie Turnpike",
+      "phone": "0246483804",
+      "website": "ambrose.net",
+      "company": "Hoeger LLC"
+    }
+  ],
+  "customer": [
+    {
+      "first_name": "Jerry",
+      "last_name": "Smith",
+      "date_of_birth": "14-2-1989",
+      "current_address": "2nd Street, New York",
+      "permenant_address": "4592 Plainfield Avenue",
+      "email": "Sincere@april.biz",
+      "phone_number": "2125551234",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "first_name": "James",
+      "last_name": "Butterburg",
+      "date_of_birth": "18-10-1975",
+      "current_address": "2nd Street, New York",
+      "permenant_address": "4592 Plainfield Avenue",
+      "email": "Shanna@melissa.tv",
+      "phone_number": "17707368031"
+    },
+    {
+      "id": 3,
+      "first_name": "Josephine",
+      "last_name": "Darakjy",
+      "date_of_birth": "30-5-1992",
+      "current_address": "B Blue Ridge Blvd",
+      "permenant_address": "4592 Plainfield Avenue",
+      "email": "Nathan@yesenia.net",
+      "phone_number": "0106926593"
+    },
+    {
+      "id": 4,
+      "first_name": "Art",
+      "last_name": "Chemel",
+      "date_of_birth": "5-1-1999",
+      "current_address": "W Cerritos Ave #54",
+      "permenant_address": "4592 Plainfield Avenue",
+      "email": "Julianne.OConner@kory.org",
+      "phone_number": "14631234447"
+    }
+  ],
+  "cart": [],
+  "checkout": [
+    {
+      "id": 1,
+      "price": 0
+    }
+  ],
+  "txhistory": [
+    {
+      "id": 273509108,
+      "transactionAmount": 93.56,
+      "time": "3/8/2022, 11:34:21 PM"
+    },
+    {
+      "id": 485710276,
+      "transactionAmount": 93.56,
+      "time": "3/8/2022, 11:35:10 PM"
+    },
+    {
+      "id": 884265643,
+      "transactionAmount": 75.37,
+      "time": "3/9/2022, 12:14:54 AM"
+    },
+    {
+      "id": 462505332,
+      "transactionAmount": 75.37,
+      "time": "3/9/2022, 12:20:57 AM"
+    },
+    {
+      "id": 181659701,
+      "transactionAmount": 33.42,
+      "time": "3/9/2022, 12:29:25 AM"
+    },
+    {
+      "id": 323527728,
+      "transactionAmount": 51.33,
+      "time": "3/9/2022, 12:36:01 AM"
+    },
+    {
+      "id": 288372515,
+      "transactionAmount": 51.33,
+      "time": "3/9/2022, 12:39:27 AM"
+    },
+    {
+      "id": 937840770,
+      "transactionAmount": 85.55,
+      "time": "3/9/2022, 12:40:26 AM"
+    },
+    {
+      "id": 887108043,
+      "transactionAmount": 67.64,
+      "time": "3/9/2022, 8:57:38 AM"
+    },
+    {
+      "id": 137642495,
+      "transactionAmount": 33.42,
+      "time": "3/9/2022, 9:27:32 AM"
+    },
+    {
+      "id": 988794966,
+      "transactionAmount": 45.36,
+      "time": "3/9/2022, 9:59:23 AM"
+    },
+    {
+      "id": 147334307,
+      "transactionAmount": 131.19,
+      "time": "3/9/2022, 10:02:12 AM"
+    }
+  ]
+}

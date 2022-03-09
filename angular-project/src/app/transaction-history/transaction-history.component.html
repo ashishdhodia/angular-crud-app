@@ -1,0 +1,16 @@
+<div class="container">
+  <table class="table table-striped table-hover table-bordered mt-4">
+    <thead>
+      <tr>
+        <th scope="col" *ngFor="let itemField of fields">{{ itemField }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of recData; let i = index">
+        <td>{{ item.id }}</td>
+        <td>{{ item.transactionAmount }}</td>
+        <td>{{ item.time }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

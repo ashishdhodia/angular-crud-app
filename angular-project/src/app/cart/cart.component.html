@@ -1,0 +1,67 @@
+<!-- <p>cart works!</p> -->
+<!-- {{qty}} -->
+<!-- {{ recData[0].quantity }} -->
+<div class="container">
+  <table class="table table-striped table-hover table-bordered">
+    <thead>
+      <tr>
+        <th scope="col" *ngFor="let itemField of fieldsForTable">
+          {{ itemField }}
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of recData; let i = index">
+        <td>{{ item.product_name }}</td>
+        <td>{{ item.product_category }}</td>
+        <td>{{ item.units_available }}</td>
+        <td>{{ item.quantity }}</td>
+        <td>{{ item.originalPrice }}</td>
+        <td>{{ item.price }}</td>
+        <td>
+          <!-- <div class="input-group input-group-sm" style="width: 100px">
+            <span class="input-group-text">Qty</span>
+            <input
+              type="number"
+              class="form-control"
+              name="qtyInput"
+              [(ngModel)]="recData[i].quantity"
+              min="0"
+              (change)="updateQuantity(item.id)"
+            />
+          </div> -->
+          <div class="input-group input-group-sm" style="width: 120px">
+            <span class="input-group-text">Qty</span>
+            <select
+              class="form-select form-select-sm"
+              aria-label=".form-select-sm example"
+              [(ngModel)]=recData[i].quantity
+              (change)="updateQuantity(item.id)"
+            >
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <!-- <button
+            class="btn btn-warning btn-sm me-3"
+            (click)="onIncrease(item.id)"
+          >
+            +
+          </button>
+          <button class="btn btn-warning btn-sm" (click)="onDecrease(item.id)">
+            -
+          </button> -->
+        </td>
+        <td>
+          <button class="btn btn-danger" (click)="onDelete(item.id)">
+            Remove
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <button class="btn btn-success mt-2" [routerLink]="['/checkout']">Checkout {{ totalCost }}</button>
+</div>
