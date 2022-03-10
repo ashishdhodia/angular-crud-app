@@ -54,9 +54,9 @@ export class CartComponent implements OnInit {
       this.totalCost = this.recData[i].price + this.totalCost
     }
 
-    this.getJson.postCartrPrice({ "id": 1, "price": this.totalCost }).subscribe((data) => {
-      console.log(data);
-    });
+    // this.getJson.postCartrPrice({ "id": 1, "price": this.totalCost }).subscribe((data) => {
+    //   console.log(data);
+    // });
     this.getJson.putCartPrice({ "id": 1, "price": this.totalCost }).subscribe((data) => {
       console.log(data);
     });
@@ -72,6 +72,10 @@ export class CartComponent implements OnInit {
       for (let i = 0; i < len; i++) {
         this.totalCost = this.recData[i].price + this.totalCost
       }
+    });
+
+    this.getJson.putCartPrice({ "id": 1, "price": this.totalCost }).subscribe((data) => {
+      console.log(data);
     });
 
   }
